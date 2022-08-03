@@ -427,19 +427,19 @@
 				},
 				{
 				"type": "section",
-				"title": "Garaged Door Openers",
+				"title": "Garage Door Openers",
 				"expandable": true,
 				"expanded": false,
 				"items": [
 					{
-					"key": "GaragedDoorOpeners",
+					"key": "GarageDoorOpeners",
 					"notitle": true,
 					"title": "Another Garage Door Opener",
 					"type": "flex",
 		            "flex-flow": "row wrap",
 					"items":[
 						{
-							"key": "GaragedDoorOpeners[]",
+							"key": "GarageDoorOpeners[]",
 							"placeholder": "Enter a Single Device ID ...",
 							"type": "text"
 						}	

@@ -23,7 +23,7 @@
                 "default": "http://homeseer.local",
                 "description": "Hostname or IP address of the HomeSeer system. Must start with http://",
                 "title": "Host",
-				"format": "url",
+		"format": "url",
                 "type": "string"
             },
             "ASCIIport": {
@@ -70,45 +70,7 @@
                     }
                 }
             },
-            "Fans": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "GarageDoorOpeners": {
-                "type": "array",
-		"title": "Garage Door Openers",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Lightbulbs": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Locks": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Thermostats": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Outlets": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Switches": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "Windows": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "WindowCoverings": {
-                "type": "array",
-				"title": "Window Coverings",
-                "items": { "$ref": "#/definitions/hsDeviceID" }
-            },
-            "CarbonDioxideSensors": {
+			"CarbonDioxideSensors": {
                 "type": "array",
 				"title": "Carbon Dioxide Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
@@ -123,6 +85,15 @@
 				"title": "Contact Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
+            "Fans": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "GarageDoorOpeners": {
+                "type": "array",
+				"title": "Garage Door Openers",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
             "HumiditySensors": {
                 "type": "array",
 				"title": "Humidity Sensors",
@@ -133,9 +104,17 @@
 				"title": "Leak Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
+            "Lightbulbs": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
             "LightSensors": {
                 "type": "array",
 				"title": "Light Sensors",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "Locks": {
+                "type": "array",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "MotionSensors": {
@@ -148,9 +127,22 @@
 				"title": "Occupancy Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
+            "Outlets": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "SecuritySystems": {
+                "type": "array",
+				"title": "Security Systems",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
             "SmokeSensors": {
                 "type": "array",
 				"title": "Smoke Sensors",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "Switches": {
+                "type": "array",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "TemperatureSensors": {
@@ -158,9 +150,17 @@
 				"title": "Temperature Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
-            "SecuritySystems": {
+            "Thermostats": {
                 "type": "array",
-				"title": "Security Systems",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "WindowCoverings": {
+                "type": "array",
+				"title": "Window Coverings",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "Windows": {
+                "type": "array",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "accessories": {
@@ -171,12 +171,12 @@
                     "required": [
                         "type",
                         "ref"
-                    ],
-                    "properties": {
-			"type": {
-				"type": "string",
-				"title": "Device Type",
-                            	"oneOf": [
+					],
+					"properties": {
+						"type": {
+							"type": "string",
+							"title": "Device Type",
+							"oneOf": [
                                 	{ "title": "Binary Light", "enum": ["BinaryLight"] },
                                 	{ "title": "Carbon Dioxide Sensor", "enum": ["CarbonDioxideSensor"] },
                                 	{ "title": "Carbon Monoxide Sensor", "enum": ["CarbonMonoxideSensor"] },
@@ -225,7 +225,7 @@
                             "$ref": "#/definitions/valueInt"
                         },
                         "offValue": {
-				            "$ref": "#/definitions/valueInt"
+							"$ref": "#/definitions/valueInt"
                         },
                         "offValues": {
                             "type": "array",

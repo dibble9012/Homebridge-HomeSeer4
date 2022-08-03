@@ -76,7 +76,7 @@ HomeSeerPlatform.prototype =
 				{category: "DimmingLights", 				typeLabel:"DimmingLight"},
 				{category: "BinaryLights", 				typeLabel:"BinaryLight"},
 				{category: "Fans", 					typeLabel:"Fan"},
-				{category: "GaragedDoorOpeners",			typeLabel:"GarageDoorOpener"},	
+				{category: "GarageDoorOpeners",				typeLabel:"GarageDoorOpener"},	
 				{category: "Lightbulbs",				typeLabel:"Lightbulb"},	
 				{category: "lightbulbs",				typeLabel:"Lightbulb"},				
 				{category: "Locks",					typeLabel:"Lock"},			

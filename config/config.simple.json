@@ -1,51 +1,44 @@
 {
-	"bridge": 
-	{
-		"name": "HomeBridge Name",
-		"username": "CD:22:3D:E3:CE:41",
-		"port": 51830,
-		"pin": "123-45-678"
-	},
-	"description": "Home Description",
-	"platforms": [
-		{
-			"platform": "HomeSeer",              
-			"name": "HomeSeer",                 
-			"host": "http://192.168.1.1:80",
-			"login":"default",
-			"password":"default",
-				"CarbonDioxideSensors": [],
-				"CarbonMonoxideSensors": [],
-				"ContactSensors": [],
-	    			"Fans": [],
-				"GarageDoorOpeners": [],
-	    			"HumiditySensors": [],
-				"LeakSensors": 	[],
-				"Lightbulbs": [],
-				"LightSensors": [],
-				"Locks": [],
-				"MotionSensors": [],
-				"OccupancySensors": [],
-				"Outlets": [],
-				"SecuritySystems": [],
-				"Showers": [],
-				"SmokeSensors": [],
-				"Sprinklers": [],
-				"Switches": [],
-				"TemperatureSensors": [],
-				"Thermostats": [],
-				"Valves": [],
-				"Windows": [],
-				"WindowCoverings": []
-			"accessories": [
-			{
-			"type":"Lock",
-			"ref":640
-			}
-	]
+    "bridge": {
+        "name": "HomeBridge Name",
+        "username": "CD:22:3D:E3:CE:41",
+        "port": 51830,
+        "pin": "123-45-678"
+    },
+    "description": "Home Description",
+    "platforms": [{
+        "platform": "HomeSeer",
+        "name": "HomeSeer",
+        "host": "http://192.168.1.1:80",
+        "login": "default",
+        "password": "default",
+        "CarbonDioxideSensors": [],
+        "CarbonMonoxideSensors": [],
+        "ContactSensors": [],
+        "Fans": [],
+        "GarageDoorOpeners": [],
+        "HumiditySensors": [],
+        "LeakSensors": [],
+        "Lightbulbs": [],
+        "LightSensors": [],
+        "Locks": [],
+        "MotionSensors": [],
+        "OccupancySensors": [],
+        "Outlets": [],
+        "SecuritySystems": [],
+        "Showers": [],
+        "SmokeSensors": [],
+        "Sprinklers": [],
+        "Switches": [],
+        "TemperatureSensors": [],
+        "Thermostats": [],
+        "Valves": [],
+        "Windows": [],
+        "WindowCoverings": [],
+	    
+        "accessories": [{
+            "type": "Lock",
+            "ref": 640
+        }]
+    }]
 }
-]
-}
-
-
-

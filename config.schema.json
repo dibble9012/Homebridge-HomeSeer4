@@ -173,34 +173,39 @@
                         "ref"
                     ],
                     "properties": {
+						                    "properties": {
 						"type": {
 							"type": "string",
-                            "enum": [
-                                "Switch",
-                                "Outlet",
-                                "TemperatureSensor",
-                                "CarbonMonoxideSensor",
-                                "CarbonDioxideSensor",
-                                "ContactSensor",
-                                "MotionSensor",
-                                "LeakSensor",
-                                "OccupancySensor",
-                                "SmokeSensor",
-                                "LightSensor",
-                                "HumiditySensor",
-								"Lock",
-                                "Fan",
-                                "Lightbulb",
-                                "DimmingLight",
-                                "LightSwitch",
-                                "BinaryLight",
-                                "GarageDoorOpener",
-                                "Window",
-                                "WindowCovering",
-                                "Thermostat",
-                                "SecuritySystem",
-                                "Valve"
-							]
+							"title": "Device Type",
+                            "oneOf": [
+                                { "title": "Binary Light", "enum": ["BinaryLight"] },
+                                { "title": "Carbon Dioxide Sensor", "enum": ["CarbonDioxideSensor"] },
+                                { "title": "Carbon Monoxide Sensor", "enum": ["CarbonMonoxideSensor"] },
+                                { "title": "Contact Sensor", "enum": ["ContactSensor"] },
+                                { "title": "Dimming Light", "enum": ["DimmingLight"] },
+                                { "title": "Fan", "enum": ["Fan"] },
+                                { "title": "Garage Door Opener", "enum": ["GarageDoorOpener"] },
+                                { "title": "Humidity Sensor", "enum": ["HumiditySensor"] },
+                                { "title": "Leak Sensor", "enum": ["LeakSensor"] },
+                                { "title": "Light Bulb", "enum": ["Lightbulb"] },
+                                { "title": "Light Sensor", "enum": ["LightSensor"] },
+                                { "title": "Light Switch", "enum": ["LightSwitch"] },
+                                { "title": "Lock", "enum": ["Lock"] },
+                                { "title": "Motion Sensor", "enum": ["MotionSensor"] },
+                                { "title": "Occupancy Sensor", "enum": ["OccupancySensor"] },
+                                { "title": "Outlet", "enum": ["Outlet"] },
+                                { "title": "Security System", "enum": ["SecuritySystem"] },
+                                { "title": "Shower", "enum": ["Shower"] },
+                                { "title": "Smoke Sensor", "enum": ["SmokeSensor"] },
+                                { "title": "Sprinkler", "enum": ["Sprinkler"] },
+                                { "title": "Switch", "enum": ["Switch"] },
+                                { "title": "Temperature Sensor", "enum": ["TemperatureSensor"] },
+                                { "title": "Thermostat", "enum": ["Thermostat"] },
+                                { "title": "Valve", "enum": ["Valve"] },
+                                { "title": "Window", "enum": ["Window"] },
+                                { "title": "Window Covering", "enum": ["WindowCovering"] }
+                                
+			]
                         },
                         "name": {
                             "type": "string"

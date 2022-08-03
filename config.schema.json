@@ -74,9 +74,9 @@
                 "type": "array",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
-            "GaragedDoorOpeners": {
+            "GarageDoorOpeners": {
                 "type": "array",
-				"title": "Garaged Door Openers",
+		"title": "Garage Door Openers",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "Lightbulbs": {

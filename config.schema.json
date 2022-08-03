@@ -70,7 +70,7 @@
                     }
                 }
             },
-			"CarbonDioxideSensors": {
+	    	"CarbonDioxideSensors": {
                 "type": "array",
 				"title": "Carbon Dioxide Sensors",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
@@ -405,205 +405,6 @@
 	            },
 				{
 				"type": "section",
-				"title": "Fans",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Fans",
-					"notitle": true,
-					"title": "Another Fan",
-					"type": "flex",
-	                "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Fans[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Garage Door Openers",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "GarageDoorOpeners",
-					"notitle": true,
-					"title": "Another Garage Door Opener",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "GarageDoorOpeners[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}	
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Lightbulbs",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Lightbulbs",
-					"notitle": true,
-					"title": "Another Lightbulb",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Lightbulbs[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Locks",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Locks",
-					"notitle": true,
-					"title": "Another Lock",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Locks[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Thermostats",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Thermostats",
-					"notitle": true,
-					"title": "Another Thermostat",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Thermostats[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}	
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Outlets",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Outlets",
-					"notitle": true,
-					"title": "Another Outlet",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Outlets[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Switches",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Switches",
-					"notitle": true,
-					"title": "Another Switch",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Switches[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Windows",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "Windows",
-					"notitle": true,
-					"title": "Another Window",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "Windows[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
-				"title": "Window Coverings",
-				"expandable": true,
-				"expanded": false,
-				"items": [
-					{
-					"key": "WindowCoverings",
-					"notitle": true,
-					"title": "Another Window Covering",
-					"type": "flex",
-		            "flex-flow": "row wrap",
-					"items":[
-						{
-							"key": "WindowCoverings[]",
-							"placeholder": "Enter a Single Device ID ...",
-							"type": "text"
-						}
-					]
-					}
-				]
-				},
-				{
-				"type": "section",
 				"title": "Carbon Dioxide Sensors",
 				"expandable": true,
 				"expanded": false,
@@ -670,6 +471,50 @@
 				},
 				{
 				"type": "section",
+				"title": "Fans",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Fans",
+					"notitle": true,
+					"title": "Another Fan",
+					"type": "flex",
+	                "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Fans[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Garage Door Openers",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "GarageDoorOpeners",
+					"notitle": true,
+					"title": "Another Garage Door Opener",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "GarageDoorOpeners[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}	
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
 				"title": "Humidity Sensors",
 				"expandable": true,
 				"expanded": false,
@@ -714,6 +559,29 @@
 				},
 				{
 				"type": "section",
+				"title": "Lightbulbs",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Lightbulbs",
+					"notitle": true,
+					"title": "Another Lightbulb",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Lightbulbs[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
 				"title": "Light Sensors",
 				"expandable": true,
 				"expanded": false,
@@ -731,6 +599,28 @@
 							"type": "text"
 						}
 						]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Locks",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Locks",
+					"notitle": true,
+					"title": "Another Lock",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Locks[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
 					}
 				]
 				},
@@ -780,6 +670,50 @@
 				},
 				{
 				"type": "section",
+				"title": "Outlets",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Outlets",
+					"notitle": true,
+					"title": "Another Outlet",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Outlets[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Security Systems",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "SecuritySystems",
+					"notitle": true,
+					"title": "Another Security System",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "SecuritySystems[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
 				"title": "Smoke Sensors",
 				"expandable": true,
 				"expanded": false,
@@ -793,6 +727,28 @@
 					"items":[
 						{
 							"key": "SmokeSensors[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Switches",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Switches",
+					"notitle": true,
+					"title": "Another Switch",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Switches[]",
 							"placeholder": "Enter a Single Device ID ...",
 							"type": "text"
 						}
@@ -824,19 +780,63 @@
 				},
 				{
 				"type": "section",
-				"title": "Security Systems",
+				"title": "Thermostats",
 				"expandable": true,
 				"expanded": false,
 				"items": [
 					{
-					"key": "SecuritySystems",
+					"key": "Thermostats",
 					"notitle": true,
-					"title": "Another Security System",
+					"title": "Another Thermostat",
 					"type": "flex",
 		            "flex-flow": "row wrap",
 					"items":[
 						{
-							"key": "SecuritySystems[]",
+							"key": "Thermostats[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}	
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Window Coverings",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "WindowCoverings",
+					"notitle": true,
+					"title": "Another Window Covering",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "WindowCoverings[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Windows",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Windows",
+					"notitle": true,
+					"title": "Another Window",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Windows[]",
 							"placeholder": "Enter a Single Device ID ...",
 							"type": "text"
 						}

@@ -1,52 +1,48 @@
 {
     "bridge": 
 	{
-        "name": "HomeBridge-Testing",
+        "name": "HomeBridge Name",
         "username": "CD:22:3D:E3:CE:41",
         "port": 51830,
         "pin": "123-45-678"
     },
-    
-    "description": "Home Miscellaneous",
-
-    "platforms": [
-	  	
+    "description": "Home Description",
+    "platforms": [  	
     {
 		"platform": "HomeSeer",              
 		"name": "HomeSeer",                 
 		"host": "http://192.168.1.1:80",
 		"login":"default",
 		"password":"default",
-
-	
-	    		"Fans": [],
-			"GaragedDoorOpeners": [],
-			"Lightbulbs": [],
-			"Locks": [],
-			"Thermostats": [],
-			"Outlets": [],
-			"Switches": [],
-			"Windows": [],
-			"WindowCoverings": [],
-			"CarbonDioxideSensors": [],
+	    	"CarbonDioxideSensors": [],
 			"CarbonMonoxideSensors": [],
 			"ContactSensors": [],
-			"HumiditySensors": [],
+	    	"Fans": [],
+			"GarageDoorOpeners": [],
+	    	"HumiditySensors": [],
 			"LeakSensors": 	[],
+			"Lightbulbs": [],
 			"LightSensors": [],
+			"Locks": [],
 			"MotionSensors": [],
 			"OccupancySensors": [],
-			"SmokeSensors": [],
-			"TemperatureSensors": [],
-	    		"Valves": [],
-	    		"Sprinklers": [],
-	    		"Showers": []
+			"Outlets": [],
 			"SecuritySystems": [],
-
-
+			"Showers": [],
+			"SmokeSensors": [],
+			"Sprinklers": [],
+			"Switches": [],
+			"TemperatureSensors": [],
+			"Thermostats": [],
+			"Valves": [],
+			"Windows": [],
+			"WindowCoverings": []
 		"accessories": 
 		[
-			{"type":"Lock" , "ref":640}
+			{
+			"type":"Lock",
+			"ref":640
+			}
 		]
 
     }

@@ -136,9 +136,19 @@
 				"title": "Security Systems",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
+            "Showers": {
+                "type": "array",
+				"title": "Showers",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
             "SmokeSensors": {
                 "type": "array",
 				"title": "Smoke Sensors",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "Sprinklers": {
+                "type": "array",
+				"title": "Sprinklers",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "Switches": {
@@ -152,6 +162,11 @@
             },
             "Thermostats": {
                 "type": "array",
+                "items": { "$ref": "#/definitions/hsDeviceID" }
+            },
+            "Valves": {
+                "type": "array",
+				"title": "Valves",
                 "items": { "$ref": "#/definitions/hsDeviceID" }
             },
             "WindowCoverings": {
@@ -714,6 +729,28 @@
 				},
 				{
 				"type": "section",
+				"title": "Showers",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Showers",
+					"notitle": true,
+					"title": "Another shower",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Showers[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
 				"title": "Smoke Sensors",
 				"expandable": true,
 				"expanded": false,
@@ -727,6 +764,28 @@
 					"items":[
 						{
 							"key": "SmokeSensors[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Sprinklers",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Sprinklers",
+					"notitle": true,
+					"title": "Another Sprinkler",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Sprinklers[]",
 							"placeholder": "Enter a Single Device ID ...",
 							"type": "text"
 						}
@@ -796,6 +855,28 @@
 							"placeholder": "Enter a Single Device ID ...",
 							"type": "text"
 						}	
+					]
+					}
+				]
+				},
+				{
+				"type": "section",
+				"title": "Valves",
+				"expandable": true,
+				"expanded": false,
+				"items": [
+					{
+					"key": "Valves",
+					"notitle": true,
+					"title": "Another Valve",
+					"type": "flex",
+		            "flex-flow": "row wrap",
+					"items":[
+						{
+							"key": "Valves[]",
+							"placeholder": "Enter a Single Device ID ...",
+							"type": "text"
+						}
 					]
 					}
 				]
